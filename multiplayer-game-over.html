@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/favicon-32x32.png" />
+    <title>Memory Game</title>
+  </head>
+  <body class="background--dark">
+    <main class="card-game-over">
+      <header class="card-game-over__header">
+        <h1 class="card-game-over__title">Player 3 Wins!</h1>
+        <p class="card-game-over__paragraph">
+          Game over! Here are the results…
+        </p>
+      </header>
+
+      <section class="statistics">
+        <div class="stats-row stats-row--primary">
+          <span class="stats-row__left">Player 3 (Winner!)</span>
+          <span class="stats-row__right">8 Pairs</span>
+        </div>
+
+        <div class="stats-row">
+          <span class="stats-row__left">Player 1</span>
+          <span class="stats-row__right">4 Pairs</span>
+        </div>
+
+        <div class="stats-row">
+          <span class="stats-row__left">Player 2</span>
+          <span class="stats-row__right">3 Pairs</span>
+        </div>
+
+        <div class="stats-row">
+          <span class="stats-row__left">Player 4</span>
+          <span class="stats-row__right">1 Pairs</span>
+        </div>
+      </section>
+
+      <footer class="footer-game-over">
+        <button class="button button-primary">Restart</button>
+        <button class="button button-secondary">Setup New Game</button>
+      </footer>
+    </main>
+  </body>
+</html>

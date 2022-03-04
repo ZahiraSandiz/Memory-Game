@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/favicon-32x32.png" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <main class="main-container-game">
+      <header>
+        <nav class="header-nav">
+          <h1 class="header-nav__title">Memory</h1>
+
+          <div class="header-nav__wraper-buttons">
+            <button class="button button-primary">Menu</button>
+            <button class="button button-primary button-restart">
+              Restart
+            </button>
+            <button class="button button-secondary">New Game</button>
+          </div>
+        </nav>
+      </header>
+
+      <section class="game-4x4">
+        <div class="circle circle--visible">2</div>
+        <div class="circle circle--visible">4</div>
+        <div class="circle circle--visible">18</div>
+        <div class="circle circle--hidden"></div>
+
+        <div class="circle circle--successful">4</div>
+        <div class="circle circle--hidden"></div>
+        <div class="circle circle--visible">2</div>
+        <div class="circle circle--hidden"></div>
+
+        <div class="circle circle--hidden"></div>
+        <div class="circle circle--visible">12</div>
+        <div class="circle circle--hidden"></div>
+        <div class="circle circle--successful">4</div>
+
+        <div class="circle circle--visible">5</div>
+        <div class="circle circle--visible">9</div>
+        <div class="circle circle--hidden"></div>
+        <div class="circle circle--hidden"></div>
+      </section>
+
+      <footer class="footer-solo">
+        <div class="footer-box">
+          <span class="footer-box__title">Time</span>
+          <span class="footer-box__time">1:53</span>
+        </div>
+
+        <div class="footer-box">
+          <span class="footer-box__title">Moves</span>
+          <span class="footer-box__time">39</span>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
